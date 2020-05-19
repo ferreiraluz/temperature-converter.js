@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="center">
+
+        <header>
+            <!--Local de titulo do programa-->
+            <h2>Conversor de Temperatura</h2>
+        </header>
+
+        <section>
+            <!--Local de execução do programa-->
+            <div class="form">
+                <h2>Temperatura:<input type="number" id="txtn1"></h2>
+                <br>
+                <hr>
+                <br>
+
+                <div class="op">
+                    <p>Deseja converter:</p>
+                    <br>
+                    <p>Celsius para Fahrenheit</p><input type="radio" name="options" id="c_f">
+                    <!--Fahrenheit para Celsius-->
+                    <input type="radio" name="options" id="f_c"><p>Fahrenheit para Celcius</p>
+                    <!--Celsius para Fahrenheit-->
+                </div>
+
+                <!--Normalmente terá um input Number-->
+                <button onclick="submit()"> Converter </button>
+                <button onclick="refresh()"> Retomar </button>
+            </div>
+            <!--form-->
+
+            <div id="res">
+
+            </div>
+        </section>
+
+        <footer>
+            <h2>&copy; Lucas Ferreira</h2>
+        </footer>
+    </div>
+    <!--center-->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

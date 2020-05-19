@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #1d082b;
+}
+.center{
+    max-width: 400px;
+    max-height: 100%;
+    margin: auto;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #1d082b;
+    left: 0;
+    text-align: center;
+    color: white;
+    transition: .5s;
+}
+
+header h2{
+    margin-top: 20px;
+    font-size: 30pt;
+    cursor: pointer;
+}
+
+header h2:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin-top: 80px;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 15px;
+    color: #1d082b;
+}
+
+.form input{
+    width: 55%;
+    margin-top: 15px;
+    margin-left: 5px;
+    border: 1px solid #1d082b;
+    transition: .5s;
+    color: #1d082b;
+}
+
+.form input:hover{
+    border-radius: 5px;
+    
+}
+
+.op p {
+    color: #1d082b;
+    font-weight: bold;
+    font-size: 15pt;
+    cursor: pointer;
+}
+
+.op p:hover{
+    text-decoration: underline;
+}
+
+.op input {
+    cursor: pointer;
+}
+
+.form button{
+    color: #1d082b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 12pt;
+    transition: .7s;
+}
+
+.form button:hover{
+    background-color: #1d082b;
+    color: white;
+    padding: 12px; 
+    border-radius: 15px;
+}
+
+#res p:hover{
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    transition: .5s;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15pt;
+}
+
+footer h2:hover{
+    text-decoration: underline;
+}
+
