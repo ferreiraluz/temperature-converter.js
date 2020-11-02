@@ -1,2 +1,2 @@
 # temperature-converter-JS
- Conversor de Temperatura feito em JavaScript puro.
+ A simple temperature converter made with Pure JS.
